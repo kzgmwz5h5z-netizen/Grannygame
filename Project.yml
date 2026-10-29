@@ -1,0 +1,21 @@
+name: GrannyHorrorGame
+options:
+  bundleIdPrefix: com.rakan
+targets:
+  GrannyHorrorGame:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - MainGame.swift
+    info:
+      path: Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
